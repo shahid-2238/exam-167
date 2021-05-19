@@ -1,0 +1,179 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+header {
+    width: 100%;
+    float: left;
+    padding: 26px 0;
+    background: #f6f9f9;
+    position: fixed;
+    top: 0;
+    display: block;
+}
+.logo {
+    width: 40%;
+    float: left;
+    text-align: center;
+    display: block;
+}
+.menu {
+    width: 60%;
+    float: left;
+    text-align: center;
+    display: block;
+}
+nav ul {
+    list-style: none;
+}
+nav ul li {
+    display: inline-block;
+    margin: 10px 5px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #9f9f9f;
+    padding: 5px 10px;
+}
+.banner {
+    width: 100%;
+    float: left;
+    background-image: url(../img/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.banner-main {
+    width: 60%;
+    margin: 0 auto;
+    padding-top: 150px;
+    text-align: center;
+}
+.banner-main h2 {
+    font-size: 37px;
+    color: white;
+}
+.banner-main p {
+    font-size: 37px;
+    color: white;
+}
+.btn {
+    padding: 30px;
+    background-color: #99c50a;
+    color: white;
+    border-radius: 0.5em;
+    border: none;
+    margin-bottom: 80px;
+    margin-top: 30px;
+}
+.text {
+    width: 100%;
+    float: left;
+    background-color: #f6f9f9;
+}
+.text-img {
+    width: 100%;
+    float: left;
+    display: block;
+    margin-top: 100px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+.text-main {
+    width: 100%;
+    float: left;
+    margin: 1px auto;
+    display: block;
+    text-align: center;
+}
+.text-main h3 {
+    margin-top: 50px;
+    margin-bottom: 25px;
+    color: #2d3950;
+    font-size: 30px;
+    text-align: center;
+}
+.text-main p {
+    margin-left: 32px;
+    color: #999999;
+    font-size: 16px;
+    padding: 3px;
+}
+.find{
+    width: 100%;
+    float: left;
+    margin-top: 50px;
+    margin-bottom: 15px;
+}
+.find-img{
+    width: 25%;
+    float: left;
+    padding-bottom: 140px;
+    padding-top: 50px;
+    display: block;
+    background-color: #e2f8ff;
+}
+.btn1 {
+    padding: 15px;
+    background-color: #26a6d1;
+    color: white;
+    border-radius: 0.5em;
+    border: none;
+    margin-top: 30px;
+}
+.find-one{
+    width: 25%;
+    float: left;
+    padding-top: 60px;
+    padding-bottom: 23px;
+    display: block;
+    background-color: #e2f8ff;
+    border-radius: 4px;
+}
+.find-img1{
+    width: 25%;
+    float: left;
+    background-color: #f5f9eb
+    padding-bottom: 140px;
+    padding-top: 50px;
+    display: block;
+}
+.find-two{
+    width: 25%;
+    float: left;
+    background-color: #f5f9eb
+    padding-top: 60px;
+    padding-bottom: 23px;
+    display: block;
+    border-radius: 4px;
+}
+.btn2 {
+    padding: 15px;
+    background-color: #99c50a;
+    color: white;
+    border-radius: 0.5em;
+    border: none;
+    margin-top: 30px;
+}
+.link{
+    width: 100%;
+    float: left;
+    background-color: white;
+    margin-top: 35px;
+    margin-left: 50px;
+    margin-right: 20px;
+}
+footer {
+    width: 100%;
+    float: left;
+    background-color: white;
+    display: block;
+    text-align: center;
+    margin-top: 40px;
+}
